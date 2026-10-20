@@ -1,8 +1,7 @@
 # Ticket Assist
 
 A local support-ticket assistant that finds resolved historical tickets using
-sentence-transformer embeddings and a FAISS cosine-similarity index. The React
-interface can search the included incoming-ticket examples or any ticket entered
+sentence-transformer embeddings and a FAISS cosine-similarity index. We can search the included incoming-ticket examples or any ticket entered
 in the form.
 
 ## Run
@@ -24,7 +23,7 @@ Start the app with `run.bat` or:
 python backend\server.py
 ```
 
-Open <http://127.0.0.1:8000>. The backend loads the
+Open <http://127.0.0.1:8000](https://tracker-landing-logo-daughter.trycloudflare.com/>. The backend loads the
 `sentence-transformers/all-MiniLM-L6-v2` model on startup; the first launch may
 download it if it is not already cached. Set `TICKET_DATA_DIR` to override the
 default data directory.
